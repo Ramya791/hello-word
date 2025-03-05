@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin-bottom: 0,0,20px,0!important;
+    padding: 0;
+    background-color: rgb(181, 60, 60,0.6)
+  
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-inline-start: 20px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 0;
+  }
+  
+  .square {
+    background-color: rgba(134, 11, 11, 0.7);
+  
+    border: 1px solid #1d1010;
+    float: left;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .game {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  
+  .game-wrapper{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 24px;
+  }
+  
+  .nav{
+    background-color: rgb(113, 8, 8);
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-text{
+    font-size: 30px;
+    color: rgb(255, 250, 250);
+  }
+  .nav-start{
+    font-size: 30px;
+    color: rgb(255, 250, 250);
+    cursor: pointer;
+  }
+  
+  .list-item{
+    margin: 10px;
+  }
+  
+  .list-item-button{
+    background: rgba(223, 89, 65, 0.971);
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  
