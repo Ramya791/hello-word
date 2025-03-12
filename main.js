@@ -5,3 +5,10 @@ var ready = (callback) => {
 ready(() => {
     document.querySelector(".header").style.height = window.innerHeight + "px";
 })
+
+
+document.getElementById("feedback-form").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    alert("Thank you for your feedback! Your feedback has been submitted.");
+    this.reset();
+});
